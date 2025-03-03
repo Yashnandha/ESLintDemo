@@ -27,7 +27,18 @@ export default [
       'react-native/no-color-literals': 'error', // colors not allowed (Need to add in colors file)
       'react-native/no-single-element-style-arrays': 'error',
       'react-native/no-unused-styles': 'error',
-      'no-alert': 'error',
+      'no-restricted-imports': [
+        'error',
+        {
+          paths: [
+            {
+              name: 'react-native',
+              importNames: ['Alert'],
+              message: 'Avoid using Alert.alert(). Use a modal instead.',
+            },
+          ],
+        },
+      ],
     },
   },
 ];

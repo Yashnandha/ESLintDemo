@@ -1,10 +1,8 @@
 import React from 'react';
-import {Alert, StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 import colors from '../../theme/colors';
 const signUp = () => {
-  const gand = () => {
-    Alert.alert('Yash');
-  };
+  const gand = () => {};
   return (
     <View style={styles.container}>
       <Text onPress={gand}>Yash</Text>
