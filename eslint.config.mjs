@@ -19,13 +19,7 @@ export default [
       'react-native/no-inline-styles': 'error', // inline styles not allowed
       'react-native/no-color-literals': 'error', // colors not allowed (Need to add in colors file)
       'react-native/no-single-element-style-arrays': 'error',
-      'no-unused-vars': [
-        'error',
-        {
-          varsIgnorePattern: '^_|styles', // Ignore variables starting with _ and styles
-          argsIgnorePattern: '^_',
-        },
-      ],
+      'react-native/no-unused-styles': 'error',
     },
   },
 ];
