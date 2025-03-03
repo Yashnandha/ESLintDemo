@@ -73,7 +73,7 @@ function App(): React.JSX.Element {
   const safePadding = '5%';
 
   const number = 202525254;
-  const email = 'dev@js.com';
+  const emails = 'dev@js.com';
   const emailOld = 'dev@js.com';
 
   return (
