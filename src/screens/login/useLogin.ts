@@ -1,8 +1,8 @@
 import {useState} from 'react';
 
 const useLogin = () => {
-  const [appName, setappName] = useState<string>('');
-  return {appName, setappName};
+  const [appName, setAppName] = useState<string>('');
+  return {appName, setAppName};
 };
 
 export default useLogin;
