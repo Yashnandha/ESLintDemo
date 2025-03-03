@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     aspectRatio: '16:9',
+    height: 200,
   },
 });
 export default styles;
