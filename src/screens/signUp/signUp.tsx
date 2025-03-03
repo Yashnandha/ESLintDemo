@@ -5,8 +5,8 @@ import colors from '../../theme/colors';
 const signUp = () => {
   return (
     <View style={styles.container}>
-      <Text></Text>
-      <Text></Text>
+      <Text>Yash</Text>
+      <Text>Nandha</Text>
     </View>
   );
 };

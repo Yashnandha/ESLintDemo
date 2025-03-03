@@ -18,6 +18,7 @@ export default [
       'no-unused-vars': 'error', // un used variables not allowed
       'no-undef': 'error',
       'react-native/no-raw-text': 'error',
+      'react/jsx-no-useless-fragment': 'error',
       'react-native/no-inline-styles': 'error', // inline styles not allowed
       'react-native/no-color-literals': 'error', // colors not allowed (Need to add in colors file)
       'react-native/no-single-element-style-arrays': 'error',
