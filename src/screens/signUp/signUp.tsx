@@ -1,11 +1,11 @@
-import React, {use} from 'react';
+import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import colors from '../../theme/colors';
 
 const signUp = () => {
   return (
     <View style={styles.container}>
-      <Text>{use()}</Text>
+      <Text>{colorTint()}</Text>
     </View>
   );
 };
