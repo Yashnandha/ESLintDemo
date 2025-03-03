@@ -13,6 +13,8 @@ export default [
   },
   ...callstackConfig,
   {
+    extends: ['plugin:react-native/all'],
+    plugins: ['react-native'],
     rules: {
       // your custom rules
       'no-unused-vars': 'error', // un used variables not allowed

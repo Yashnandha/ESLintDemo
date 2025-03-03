@@ -8,8 +8,5 @@ const styles = StyleSheet.create({
   textStyle: {
     backgroundColor: colors.tintGray,
   },
-  red: {
-    color: colors.tintGray,
-  },
 });
 export default styles;
