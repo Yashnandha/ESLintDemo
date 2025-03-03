@@ -5,6 +5,7 @@ import colors from '../../theme/colors';
 const signUp = () => {
   return (
     <View style={styles.container}>
+      <View></View>
       <Text>
         Yash
         <Text>ss</Text>
