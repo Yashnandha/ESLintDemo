@@ -1,10 +1,14 @@
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
+
 import colors from '../../theme/colors';
 
 const signUp = () => {
-  console.log('sss');
-  return <View style={styles.container}></View>;
+  return (
+    <View style={styles.container}>
+      <Text>Yash</Text>
+    </View>
+  );
 };
 
 export default signUp;
