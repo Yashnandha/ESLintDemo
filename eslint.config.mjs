@@ -17,6 +17,7 @@ export default [
       // your custom rules
       'no-unused-vars': 'error', // un used variables not allowed
       'no-undef': 'error',
+      'no-console': 'off',
       'react-native/no-inline-styles': 'error', // inline styles not allowed
       'react-native/no-color-literals': 'error', // colors not allowed (Need to add in colors file)
       'react-native/no-single-element-style-arrays': 'error',

@@ -3,6 +3,7 @@ import {StyleSheet, View} from 'react-native';
 import colors from '../../theme/colors';
 
 const signUp = () => {
+  console.log('sss');
   return <View style={styles.container}></View>;
 };
 
