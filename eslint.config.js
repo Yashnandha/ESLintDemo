@@ -24,7 +24,6 @@ export default [
         'error',
         {vars: 'all', args: 'after-used', ignoreRestSiblings: false},
       ],
-      'no-unused-imports': 'error', // Ensures unused imports are removed
     },
   },
 ];
