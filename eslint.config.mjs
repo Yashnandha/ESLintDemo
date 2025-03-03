@@ -7,6 +7,8 @@ export default [
       'node_modules/',
       'dist/',
       'build/',
+      '__tests__/',
+      'eslint.config.mjs',
     ],
   },
   ...callstackConfig,
