@@ -22,6 +22,7 @@ export default [
       'no-duplicate-case': 'error',
       'no-empty': 'error',
       'no-duplicate-imports': 'error',
+      'no-empty-function': 'error',
       'no-extra-semi': 'error',
       'react-native/no-inline-styles': 'error', // inline styles not allowed
       'react-native/no-color-literals': 'error', // colors not allowed (Need to add in colors file)

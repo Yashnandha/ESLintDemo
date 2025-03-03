@@ -2,10 +2,9 @@ import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import colors from '../../theme/colors';
 const signUp = () => {
-  const gand = () => {};
   return (
     <View style={styles.container}>
-      <Text onPress={gand}>Yash</Text>
+      <Text>Yash nandha</Text>
     </View>
   );
 };
