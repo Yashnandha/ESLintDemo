@@ -1,18 +1,9 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import colors from '../../theme/colors';
 
 const signUp = () => {
-  return (
-    <View style={styles.container}>
-      <View></View>
-      <Text>
-        Yash
-        <Text>ss</Text>
-      </Text>
-      <Text>Nandha</Text>
-    </View>
-  );
+  return <View style={styles.container}></View>;
 };
 
 export default signUp;
