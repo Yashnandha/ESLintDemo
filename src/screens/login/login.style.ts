@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
   },
   textStyle: {
     backgroundColor: colors.tintGray,
+    flex: 1,
   },
 });
 export default styles;
