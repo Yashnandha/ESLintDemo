@@ -2,6 +2,7 @@
   "name": "NewStructure",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -36,7 +37,7 @@
     "globals": "^16.0.0",
     "husky": "^8.0.0",
     "jest": "^29.6.3",
-    "prettier": "2.8.8",
+    "prettier": "^3.5.3",
     "react-test-renderer": "19.0.0",
     "typescript": "5.0.4"
   },
