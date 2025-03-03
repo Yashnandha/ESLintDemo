@@ -20,6 +20,11 @@ export default [
     rules: {
       ...prettierConfig.rules,
       'prettier/prettier': 'error',
+      'no-unused-vars': [
+        'error',
+        {vars: 'all', args: 'after-used', ignoreRestSiblings: false},
+      ],
+      'no-unused-imports': 'error', // Ensures unused imports are removed
     },
   },
 ];

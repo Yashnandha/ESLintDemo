@@ -73,6 +73,8 @@ function App(): React.JSX.Element {
   const safePadding = '5%';
 
   const number = 202525254;
+  const email = 'dev@js.com';
+
   return (
     <View style={backgroundStyle}>
       <StatusBar
