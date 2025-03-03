@@ -6,6 +6,7 @@ const signUp = () => {
   return (
     <View style={styles.container}>
       <Text></Text>
+      <Text></Text>
     </View>
   );
 };
