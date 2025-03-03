@@ -4,9 +4,9 @@ export default [
   {
     ignores: [
       // ignored files go here
-      node_modules,
-      dist,
-      build,
+      'node_modules/',
+      'dist/',
+      'build/',
     ],
   },
   ...callstackConfig,
