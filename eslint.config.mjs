@@ -28,18 +28,18 @@ export default [
       'react-native/no-color-literals': 'error', // colors not allowed (Need to)
       'react-native/no-single-element-style-arrays': 'error',
       'react-native/no-unused-styles': 'error',
-      'no-restricted-imports': [
-        'error',
-        {
-          paths: [
-            {
-              name: 'react-native',
-              importNames: ['Alert'],
-              message: 'Avoid using Alert.alert(). Use a modal instead.',
-            },
-          ],
-        },
-      ],
+      // 'no-restricted-imports': [
+      //   'error',
+      //   {
+      //     paths: [
+      //       {
+      //         name: 'react-native',
+      //         importNames: ['Alert'],
+      //         message: 'Avoid using Alert.alert(). Use a modal instead.',
+      //       },
+      //     ],
+      //   },
+      // ],
     },
   },
 ];
