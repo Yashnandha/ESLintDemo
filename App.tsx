@@ -74,6 +74,7 @@ function App(): React.JSX.Element {
 
   const number = 202525254;
   const email = 'dev@js.com';
+  const emailOld = 'dev@js.com';
 
   return (
     <View style={backgroundStyle}>
