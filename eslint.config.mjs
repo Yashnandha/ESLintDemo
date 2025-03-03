@@ -19,6 +19,7 @@ export default [
       'react-native/no-inline-styles': 'error', // inline styles not allowed
       'react-native/no-color-literals': 'error', // colors not allowed (Need to add in colors file)
       'react-native/no-single-element-style-arrays': 'error',
+      'unicorn/no-empty-file': 'error', // Empty Files
     },
   },
 ];
