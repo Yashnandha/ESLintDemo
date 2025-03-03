@@ -17,6 +17,8 @@ export default [
       // your custom rules
       'no-unused-vars': 'error',
       'react-native/no-inline-styles': 'error',
+      'react-native/no-color-literals': 'error',
+      'react-native/no-raw-text': 'error',
     },
   },
 ];
