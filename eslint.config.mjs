@@ -16,7 +16,7 @@ export default [
     rules: {
       // your custom rules
       'no-unused-vars': 'error',
-      'react-native/no-inline-styles': 'off',
+      'react-native/no-inline-styles': 'error',
     },
   },
 ];
