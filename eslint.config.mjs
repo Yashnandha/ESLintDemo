@@ -25,7 +25,7 @@ export default [
       'no-empty-function': 'error',
       'no-extra-semi': 'error',
       'react-native/no-inline-styles': 'error', // inline styles not allowed
-      'react-native/no-color-literals': 'error', // colors not allowed (Need to add in colors file)
+      'react-native/no-color-literals': 'error', // colors not allowed (Need to)
       'react-native/no-single-element-style-arrays': 'error',
       'react-native/no-unused-styles': 'error',
       'no-restricted-imports': [
